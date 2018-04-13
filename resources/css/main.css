@@ -1,0 +1,71 @@
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+
+.form {
+    margin: 5%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+.photo-upload {
+    float: right;
+}
+
+#rec textarea {
+
+  height:100px; 
+  min-height:100px;  
+  max-height:200px;
+}
+
+#res textarea {
+
+  height:50px; 
+  min-height:50px;  
+  max-height:200px;
+}
+
+
+.preview {
+    min-width: 40%;
+    min-height: 40%;
+    max-height: 20%;
+    max-width: 20%;
+    border: 1px;
+    border-style: dotted;
+}
+
+.results {
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+.recommendation {
+
+}
+
+.card-body {
+    min-height: 50px;
+}
