@@ -10,6 +10,14 @@
 	<title>
 		Sometitle
 	</title>
+	<script type="text/javascript">
+        jQuery(document).ready(function () {
+            $("#search-form").submit(function (event) {
+                    event.preventDefault();
+                    searchViaAjax();
+            });
+        });
+    </script>
 </head>
 <body>
 	<div class="container-fluid border-bottom">
@@ -76,7 +84,7 @@
 						Результат
 					</div>
 					<div id="res">
-						<textarea class="form-control"  rows="3" readonly></textarea>
+						<textarea class="form-control" id="response" rows="3" readonly></textarea>
 					</div>
 				</div>
 			</div>
